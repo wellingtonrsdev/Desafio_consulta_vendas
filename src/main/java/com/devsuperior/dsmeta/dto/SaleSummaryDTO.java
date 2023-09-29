@@ -1,16 +1,14 @@
 package com.devsuperior.dsmeta.dto;
 
-import com.devsuperior.dsmeta.entities.Sale;
-
-public class SummaryMinDTO {
+public class SaleSummaryDTO {
 
 	private String sellerName;
 	private Double total;
 
-	public SummaryMinDTO() {
+	public SaleSummaryDTO() {
 	}
 
-	public SummaryMinDTO(String sellerName, Double total) {
+	public SaleSummaryDTO(String sellerName, Double total) {
 		this.sellerName = sellerName;
 		this.total = total;
 	}
